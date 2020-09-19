@@ -1,0 +1,15 @@
+﻿<Window x:Class="Vovo4ka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vovo4ka"
+        mc:Ignorable="d"
+        Title="Вовочка" Height="315.957" Width="364.362">
+    <Grid>
+        <Button Content="Проверить" HorizontalAlignment="Left" Margin="187,159,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="numText" HorizontalAlignment="Left" Height="23" Margin="106,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Введите номер попадания" HorizontalAlignment="Left" Margin="106,100,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
